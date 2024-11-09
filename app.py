@@ -43,7 +43,7 @@ else:
         # Mostrar la fila seleccionada
         st.write('Fila seleccionada:')
         st.write(df.loc[selected_row].to_frame().T)
-        
+        st.write(lg.mostrar_datosAE())
         # Botón para abrir el formulario de detalles del cliente
         with st.form(key='detalle_cliente_form', clear_on_submit=True):
             # Selectboxes para resultado y promesa

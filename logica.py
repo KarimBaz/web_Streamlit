@@ -18,14 +18,14 @@ def mostrar_datosPaP():
 
 def mostrar_datosCC():
     df = cargar_datos()
-    columns_to_select = ['Numero_tlf', 'Direccion', 'Interacciones']
+    columns_to_select = ['Numero_tlf', 'Interacciones']
     existing_columns = [col for col in columns_to_select if col in df.columns]
     new_df = df[existing_columns]
     return new_df
 
 def mostrar_datosAE():
     df = cargar_datos()
-    columns_to_select = ['Numero_tlf', 'Direccion', 'Interacciones']
+    columns_to_select = ['Numero_tlf', 'Interacciones','Linea credito,tasa interés','Plazo_Meses','Pago,Nivel_Atraso','Edad_cliente']
     existing_columns = [col for col in columns_to_select if col in df.columns]
     new_df = df[existing_columns]
     return new_df
