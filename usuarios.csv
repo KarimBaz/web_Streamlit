@@ -1,0 +1,7 @@
+usuario,nombre,password, puesto,puesto
+admin,admin,admin, admin,
+PaP,Analista Ventas,clave123, PaP,
+CC,Analista Compras,clave123, CC,
+Fraile,Unai,HolaMundo,,PaP
+Batman,Bruno,batman,,CC
+Karim,Karim,karim,,AE
